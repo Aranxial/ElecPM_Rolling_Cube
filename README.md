@@ -1,6 +1,6 @@
 # Rolling_Cube
 Contains **.sdf file** and a **demonstration video** of the cube model in gazebo.
-Download the files to a folder and open this folder in terminal and run: 
+Download the files (only robot_v2.sdf is needed) to a folder and open this folder in terminal and run: 
 ``bash
 ign gazebo robot_v2.sdf``. Gazebo will open up and you can see the cube. Now click on the three dots on the top-right corner and select **Key Publisher**. This plugin allows gazebo to use keyboard signals for cube movements.
 
