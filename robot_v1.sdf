@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.7">&lt;?xml version="1.0"?&gt;
+<world name="moving_cube">
+  <model name="robot">
+    <link name="cube_frame">
+      <inertial>
+        <pose>0 0 0.5 0 0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.10000000000000001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.10000000000000001</iyy>
+          <iyz>0</iyz>
+          <izz>0.10000000000000001</izz>
+        </inertia>
+      </inertial>
+      <collision name="cube_frame_fixed_joint_lump__collision_collision">
+        <pose>0 0 0.5 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="cube_frame_fixed_joint_lump__ZXY_visual">
+        <pose>0.45 0.45 0.5 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name="cube_frame_fixed_joint_lump__ZX_Y_visual_1">
+        <pose>-0.45 0.45 0.5 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name="cube_frame_fixed_joint_lump__ZXY__visual_2">
+        <pose>0.45 -0.45 0.5 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name="cube_frame_fixed_joint_lump__ZX_Y__visual_3">
+        <pose>-0.45 -0.45 0.5 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name="cube_frame_fixed_joint_lump__XYZ_visual_4">
+        <pose>0 0.45 0.95 0 1.570796326794897 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name="cube_frame_fixed_joint_lump__XY_Z_visual_5">
+        <pose>0 -0.45 0.95 0 1.570796326794897 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name="cube_frame_fixed_joint_lump__XYZ__visual_6">
+        <pose>0 0.45 0.05 0 1.570796326794897 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name="cube_frame_fixed_joint_lump__XY_Z__visual_7">
+        <pose>0 -0.45 0.05 0 1.570796326794897 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name="cube_frame_fixed_joint_lump__YZX_visual_8">
+        <pose>0.45 0 0.95 1.570796326794896 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name="cube_frame_fixed_joint_lump__YZ_X_visual_9">
+        <pose>0.45 0 0.05 1.570796326794896 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name="cube_frame_fixed_joint_lump__YZX__visual_10">
+        <pose>-0.45 0 0.95 1.570796326794896 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name="cube_frame_fixed_joint_lump__YZ_X__visual_11">
+        <pose>-0.45 0 0.05 1.570796326794896 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name="cube_disc_joint" type="revolute">
+      <pose relative_to="cube_frame">0 0 0.5 0 0 0</pose>
+      <parent>cube_frame</parent>
+      <child>disc_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+          <effort>1000</effort>
+          <velocity>10</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name="disc_link">
+      <pose relative_to="cube_disc_joint">0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.10000000000000001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.10000000000000001</iyy>
+          <iyz>0</iyz>
+          <izz>0.10000000000000001</izz>
+        </inertia>
+      </inertial>
+      <collision name="disc_link_fixed_joint_lump__disc_collision_collision">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.20000000000000001</length>
+            <radius>0.5</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="disc_link_fixed_joint_lump__disc_visual">
+        <pose>0 0 0 1.570796326794896 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.20000000000000001</length>
+            <radius>0.5</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>1 0.625 0 1</diffuse>
+          <ambient>1 0.625 0 1</ambient>
+        </material>
+      </visual>
+    </link>
+  </model>
+</world></sdf>
